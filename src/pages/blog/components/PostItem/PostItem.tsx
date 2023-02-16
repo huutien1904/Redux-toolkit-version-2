@@ -1,6 +1,6 @@
 import { Post } from "types/blog.type"
 import {useDispatch} from 'react-redux'
-import { deletePost } from "../blog.reducer"
+import { deletePost } from "../blog.slice"
 interface PostItemType  {
   post : Post
   handleDelete:(postId:string) => void
